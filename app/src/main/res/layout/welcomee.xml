@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeeActivity">
+
+
+    <ImageView
+        android:foreground="@drawable/foreground_design"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginbackg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+
+        android:layout_width="22dp"
+        android:layout_height="482dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/uniquebrunch"
+        android:textAlignment="center"
+        android:textColor="#E6E7BF"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="imageView2"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="484dp"
+        android:text="@string/chase_the_best_flavor_today"
+        android:textAlignment="center"
+        android:textColor="#E6E7BF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="140dp"
+        android:padding="14dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        app:layout_constrainedWidth_percent=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="imageView3"
+        app:layout_constraintVertical_bias=".7"
+        android:textStyle="bold"
+        android:onClick="register"
+        android:background="btn_bg_design" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="72dp"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="button"
+        android:background="btn_bg_design"
+        android:onClick="login"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

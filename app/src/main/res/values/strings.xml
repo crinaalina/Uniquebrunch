@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Brunchfast</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android studio</string>
+    <string name="nav_header_subtitles">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="uniquebrunch">UNIQUEBRUNCH</string>
+    <string name="hello_explore_your_dream_food">Hello Explore Your Dream Food</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_asdress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="title_activity_gallery_fragment">GalleryFragment</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="title_activity_gallery_view_model">GalleryViewModel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_cart">my_cart</string>
+    <string name="chase_the_best_flavor_today">Chase the best flavor today</string>
+</resources>

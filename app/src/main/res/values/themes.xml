@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Brunchfast" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#E6E7BF</item>
+        <item name="colorPrimaryVariant">#DAC2DC</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!--Secondary brand color.-->
+        <item name="colorSecondary">#785C5C</item>
+        <item name="colorSecondaryVariant">#9AA1C1</item>
+        <item name="colorOnSecondary">#FF000000</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--Status bar color.-->
+
+
+
+    </style>
+
+    <style name="Theme.Brunchfast.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Brunchfast" parent="Base.Theme.Brunchfast" />
+
+    <style name="Theme.Brunchfast.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Brunchfast.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
